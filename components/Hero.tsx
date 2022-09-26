@@ -1,8 +1,6 @@
 import React from "react";
 import BackgroundCircles from "./BackgroundCircles";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import Image from "next/image";
-import Ragdoll from "../public/ragdoll2.jpg";
 import Link from "next/link";
 import { PageInfo } from "../typings";
 import { urlFor } from "../sanity";

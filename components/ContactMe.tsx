@@ -8,9 +8,8 @@ type Inputs = {
   subject: string;
   message: string;
 };
-type Props = {};
 
-function ContactMe({}: Props) {
+function ContactMe() {
   const { register, handleSubmit } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
     window.location.href = `mailto: kevin.chen19981@gmail.com?subject=${formData.subject}&body=Hi, my name is ${formData.name}. ${formData.message} `;
@@ -29,15 +28,13 @@ function ContactMe({}: Props) {
       <div className="flex flex-col space-y-10">
         <h4 className="text-4xl font-semibold text-center">
           I have got just what you need.{" "}
-          <span className="decoration-[#F7AB0A]/50 underline">
-            Let&apos;s Talk.
-          </span>
+          <span className="decoration-[#F7AB0A]/50 underline">Let's Talk.</span>
         </h4>
 
         <div className="space-y-10">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">+61466080967</p>
+            <p className="text-2xl">+61412323123</p>
           </div>
           <div className="flex items-center space-x-5 justify-center">
             <EnvelopeIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />

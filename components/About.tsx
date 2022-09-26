@@ -1,7 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Image from "next/image";
-import Myself from "../public/Myself.jpg";
 import { PageInfo } from "../typings";
 import { urlFor } from "../sanity";
 type Props = {
