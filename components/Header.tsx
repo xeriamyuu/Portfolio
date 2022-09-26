@@ -28,10 +28,10 @@ export default function Header({ socials }: Props) {
       >
         {/*Social Icons*/}
 
-        {socials?.map((social?) => (
+        {socials?.map((social) => (
           <SocialIcon
             key={social?._id}
-            url={social?.urL}
+            url={social?.url}
             fgColor="gray"
             bgColor="transparent"
           />

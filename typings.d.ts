@@ -8,7 +8,7 @@ interface SanityBody {
 export interface Social extends SanityBody {
   _type: "social";
   title: string;
-  urL: string;
+  url: string;
 }
 
 interface Image {
